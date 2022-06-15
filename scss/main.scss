@@ -38,10 +38,6 @@ main {
       width: 30%;
     }
   }
-
-
-
-  
   form {
     display: block;
     box-sizing: border-box;
@@ -76,12 +72,12 @@ main {
     border: 1px solid;
   }
   
-  .formemail i {
+  .formemail svg {
     font-size: 1.6rem;
     margin-left: 10px;
     margin-right: 10px;
-    font-weight: 100;
-    color: rgba(14, 14, 14, 0.7);
+   
+  
   }
   
   .form-password {
@@ -97,6 +93,11 @@ main {
     margin-right: 10px;
     font-weight: 100;
     color: rgba(14, 14, 14, 0.7);
+  }
+  .form-password svg{
+    font-size: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
   }
   
   button {
@@ -221,6 +222,3 @@ font-weight: 900;
       width: 30%;
     }
   }
-
-
-
