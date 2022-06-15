@@ -3,14 +3,8 @@ nav {
   width: 100%;
   margin-bottom: 40px;
 }
-nav .logo {
-  color: black;
-  font-size: 2rem;
-  line-height: 80px;
-  margin-left: 5%;
-}
 nav .logo img {
-  width: 250px;
+  width: 220px;
 }
 nav .ham-menu {
   height: 50px;
@@ -38,7 +32,7 @@ nav .ham-menu a {
 nav .ham-menu a:hover {
   border-bottom: 2px solid blueviolet;
 }
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   nav .ham-menu {
     display: flex;
   }
@@ -74,13 +68,11 @@ main h1 {
 
 @media (min-width: 480px) {
   main h1 {
-    font-size: 1.2rem;
-    width: 70%;
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
   main h1 {
-    font-size: 2rem;
     width: 50%;
   }
 }
@@ -105,7 +97,7 @@ form {
 
 @media (min-width: 480px) {
   form {
-    width: 70%;
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
@@ -210,7 +202,7 @@ input:focus {
 }
 
 section {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -224,12 +216,12 @@ section h1 {
   justify-content: flex-start;
   align-items: flex-start;
   font-size: 1.2rem;
+  font-weight: bold;
 }
 
 @media (min-width: 480px) {
   section h1 {
-    font-size: 1.2rem;
-    width: 70%;
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
@@ -239,6 +231,7 @@ section h1 {
 }
 @media (min-width: 1024px) {
   section h1 {
+    font-size: 2rem;
     width: 40%;
   }
 }
@@ -265,7 +258,7 @@ section button:hover {
 
 @media (min-width: 480px) {
   section button {
-    width: 70%;
+    width: 60%;
   }
 }
 @media (min-width: 768px) {
@@ -295,12 +288,12 @@ footer .list {
   width: 70%;
   display: flex;
   justify-content: space-around;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   margin-top: 30px;
 }
 
 footer img {
-  width: 50px;
+  width: 45px;
 }
 
 footer a {
