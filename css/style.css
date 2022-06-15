@@ -71,15 +71,28 @@ main h1 {
   font-size: 1.2rem;
 }
 
+@media (min-width: 480px) {
+  main h1 {
+    font-size: 2rem;
+    width: 70%;
+  }
+}
 @media (min-width: 768px) {
   main h1 {
     font-size: 2rem;
     width: 50%;
   }
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
   main h1 {
+    font-size: 2rem;
     width: 40%;
+  }
+}
+@media (min-width: 1224px) {
+  main h1 {
+    font-size: 2rem;
+    width: 30%;
   }
 }
 form {
@@ -89,14 +102,24 @@ form {
   margin: auto;
 }
 
+@media (min-width: 480px) {
+  form {
+    width: 70%;
+  }
+}
 @media (min-width: 768px) {
   form {
     width: 50%;
   }
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
   form {
     width: 40%;
+  }
+}
+@media (min-width: 1224px) {
+  form {
+    width: 30%;
   }
 }
 .formemail {
@@ -171,6 +194,12 @@ input {
   border: 2px solid;
 }
 
+.form a {
+  font-size: 1.2rem;
+  color: blue;
+  font-weight: 900;
+}
+
 section {
   margin-top: 50px;
   width: 100%;
@@ -188,15 +217,25 @@ section h1 {
   font-size: 1.2rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
   section h1 {
     font-size: 2rem;
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  section h1 {
     width: 50%;
   }
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
   section h1 {
     width: 40%;
+  }
+}
+@media (min-width: 1224px) {
+  section h1 {
+    width: 30%;
   }
 }
 section button {
@@ -215,14 +254,24 @@ section button:hover {
   color: white;
 }
 
+@media (min-width: 480px) {
+  section button {
+    width: 70%;
+  }
+}
 @media (min-width: 768px) {
   section button {
     width: 50%;
   }
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
   section button {
     width: 40%;
+  }
+}
+@media (min-width: 1224px) {
+  section button {
+    width: 30%;
   }
 }
 footer {
@@ -253,14 +302,24 @@ footer a:hover {
   border-bottom: 2px solid;
 }
 
+@media (min-width: 480px) {
+  footer .list {
+    width: 70%;
+  }
+}
 @media (min-width: 768px) {
   footer .list {
     width: 50%;
   }
 }
-@media (min-width: 920px) {
+@media (min-width: 1024px) {
   footer .list {
     width: 40%;
+  }
+}
+@media (min-width: 1224px) {
+  footer .list {
+    width: 30%;
   }
 }
 
