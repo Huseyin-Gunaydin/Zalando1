@@ -17,9 +17,15 @@ main {
   @media (min-width: 768px) {
     main h1 {
       font-size: 2rem;
+      width: 50%;
+    }
+  }
+  @media (min-width: 920px) {
+    main h1{
       width: 30%;
     }
   }
+  
   form {
     display: block;
     box-sizing: border-box;
@@ -29,7 +35,12 @@ main {
   
   @media (min-width: 768px) {
     form {
-      width: 30%;
+      width: 50%;
+    }
+  }
+  @media (min-width: 920px) {
+   form {
+      width: 40%;
     }
   }
   .formemail {
@@ -117,11 +128,18 @@ main {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    font-size: 1.2rem;
   }
   
   @media (min-width: 768px) {
     section h1 {
-      width: 30%;
+      font-size: 2rem;
+      width: 50%;
+    }
+  }
+  @media (min-width: 920px) {
+    section h1 {
+      width: 40%;
     }
   }
   section button {
@@ -141,8 +159,15 @@ main {
   
   @media (min-width: 768px) {
     section button {
-      width: 30%;
+      width: 50%;
     }
   }
+
+  @media (min-width: 920px) {
+    section button {
+      width: 40%;
+    }
+  }
+
 
 
