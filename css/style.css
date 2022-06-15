@@ -7,10 +7,10 @@ nav .logo {
   color: black;
   font-size: 2rem;
   line-height: 80px;
-  margin-left: 10%;
+  margin-left: 5%;
 }
-nav .logo span {
-  color: orangered;
+nav .logo img {
+  width: 250px;
 }
 nav .ham-menu {
   height: 40px;
@@ -198,9 +198,8 @@ footer .list {
   margin-bottom: 70px;
 }
 
-footer span {
-  color: orangered;
-  font-size: 2rem;
+footer img {
+  width: 50px;
 }
 
 @media (min-width: 768px) {
