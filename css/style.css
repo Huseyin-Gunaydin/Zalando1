@@ -79,7 +79,7 @@ main h1 {
 }
 @media (min-width: 920px) {
   main h1 {
-    width: 30%;
+    width: 40%;
   }
 }
 form {
@@ -255,7 +255,12 @@ footer a:hover {
 
 @media (min-width: 768px) {
   footer .list {
-    width: 30%;
+    width: 50%;
+  }
+}
+@media (min-width: 920px) {
+  footer .list {
+    width: 40%;
   }
 }
 
