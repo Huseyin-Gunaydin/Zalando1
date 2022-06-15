@@ -31,11 +31,11 @@ nav .ham-menu span {
 }
 nav .ham-menu a {
   margin-right: 10px;
-  color: rgb(41, 10, 245);
+  color: blueviolet;
   font-weight: 700;
 }
 nav .ham-menu a:hover {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid blueviolet;
 }
 @media (max-width: 768px) {
   nav .ham-menu {
@@ -199,8 +199,8 @@ input {
 }
 
 .form a {
-  font-size: 1.2rem;
-  color: blue;
+  font-size: 1rem;
+  color: blueviolet;
   font-weight: 900;
 }
 
