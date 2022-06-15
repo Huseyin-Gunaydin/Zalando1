@@ -303,7 +303,7 @@ footer a {
 }
 
 footer a:hover {
-  border-bottom: 2px solid;
+  border-bottom: 1px solid;
 }
 
 @media (min-width: 480px) {
