@@ -77,7 +77,6 @@ main {
     margin-left: 10px;
     margin-right: 10px;
    
-  
   }
   
   .form-password {
@@ -99,6 +98,11 @@ main {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .formemail:hover,
+  .form-password:hover{
+    border: 2px solid black;
+  } 
   
   button {
     width: 100%;
@@ -135,11 +139,12 @@ main {
     border-radius: 5px;
     font-size: 1rem;
     border: none;
+
   }
-  .formemail:hover,
-  .form-password:hover{
-    border: 2px solid;
+  input:focus {
+    outline: none;
   }
+
 
   .form a{
 font-size: 1rem;
