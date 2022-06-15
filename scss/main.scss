@@ -98,6 +98,10 @@ main {
     font-size: 1rem;
     border: none;
   }
+  .formemail:hover,
+  .form-password:hover{
+    border: 2px solid;
+  }
   
   section {
     margin-top: 50px;

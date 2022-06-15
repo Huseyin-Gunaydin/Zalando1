@@ -157,6 +157,11 @@ input {
   border: none;
 }
 
+.formemail:hover,
+.form-password:hover {
+  border: 2px solid;
+}
+
 section {
   margin-top: 50px;
   width: 100%;
