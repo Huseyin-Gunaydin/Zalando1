@@ -6,6 +6,11 @@ nav {
 nav .logo img {
   width: 220px;
 }
+@media (min-width: 1280px) {
+  nav .logo img {
+    margin-left: 20%;
+  }
+}
 nav .ham-menu {
   height: 50px;
   display: flex;
