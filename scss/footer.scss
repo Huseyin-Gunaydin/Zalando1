@@ -5,18 +5,27 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+ 
   } 
   
 footer .list {
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     margin-bottom: 70px;
+    margin-top: 50px;
   }
-  
+ 
   footer img {
     width: 50px;
  
+  }
+  footer a{
+    color: black;
+  }
+
+  footer a:hover{
+    text-decoration: underline;
   }
   
   @media (min-width: 768px) {

@@ -33,7 +33,12 @@ nav {
         margin-right: 10px;
         color: rgb(41, 10, 245);
         font-weight: 700;
+        &:hover{
+          text-decoration: underline;
+          color: rgb(41, 10, 245);
+        }
       }
+    
     }
     @media (max-width: 768px) {
       .ham-menu {
