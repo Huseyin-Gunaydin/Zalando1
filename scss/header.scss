@@ -1,0 +1,45 @@
+nav {
+    height: 80px;
+    width: 100%;
+    margin-bottom: 40px;
+    .logo {
+      color: black;
+      font-size: 2rem;
+      line-height: 80px;
+      margin-left: 10%;
+      span {
+        color:orangered; 
+      }
+    }
+    
+    .ham-menu {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    
+      border-bottom: 1px solid;
+      display: none;
+      i {
+        font-size: 25px;
+        padding: 7px;
+        border: 1px solid;
+      }
+      span {
+        margin-left: 15px;
+        font-size: 1.2rem;
+      }
+      a {
+        margin-right: 10px;
+        color: rgb(41, 10, 245);
+        font-weight: 700;
+      }
+    }
+    @media (max-width: 768px) {
+      .ham-menu {
+        display: flex;
+      }
+    }
+  }
+
+  

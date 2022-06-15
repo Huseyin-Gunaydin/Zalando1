@@ -1,0 +1,27 @@
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } 
+  
+footer .list {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+  }
+  
+  footer span {
+    color:  $color-logo;
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    footer .list {
+      width: 30%;
+    }
+  }
+  
