@@ -133,23 +133,26 @@ main {
   
   input {
     display: block;
-    width: 100%;
-    margin-top: 5px;
+    width:89%;
+    margin: 5px 0;
     height: 45px;
     border-radius: 5px;
     font-size: 1rem;
     border: none;
-
+    background-color: white;
+    box-sizing: border-box;
   }
   input:focus {
     outline: none;
   }
 
-
   .form a{
 font-size: 1rem;
 color:blueviolet;
 font-weight: 900;
+&:hover{
+  border-bottom: 2px solid blueviolet;
+}
   }
 
 .linie{
@@ -158,9 +161,6 @@ font-weight: 900;
   background-color:rgb(215, 209, 209);
   margin-top: 40px;
 }
-
-
-
   
   section {
     margin-top: 40px;

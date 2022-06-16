@@ -7,8 +7,8 @@ nav .logo img {
   width: 220px;
 }
 @media (min-width: 1280px) {
-  nav .logo img {
-    margin-left: 20%;
+  nav .logo {
+    margin-left: 10%;
   }
 }
 nav .ham-menu {
@@ -156,7 +156,7 @@ form {
 
 .formemail:hover,
 .form-password:hover {
-  border: 2px solid black;
+  box-shadow: inset 0 0 0 1px #1a1a1a;
 }
 
 button {
@@ -188,12 +188,14 @@ label {
 
 input {
   display: block;
-  width: 100%;
-  margin-top: 5px;
+  width: 89%;
+  margin: 5px 0;
   height: 45px;
   border-radius: 5px;
   font-size: 1rem;
   border: none;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 input:focus {
@@ -204,6 +206,9 @@ input:focus {
   font-size: 1rem;
   color: blueviolet;
   font-weight: 900;
+}
+.form a:hover {
+  border-bottom: 2px solid blueviolet;
 }
 
 .linie {
